@@ -1,0 +1,29 @@
+{
+  "name": "elbecita.github.io",
+  "version": "0.0.0",
+  "description": "Maria Fernandez personal site",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-static start",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbecita/elbecita.github.io.git"
+  },
+  "author": "Maria Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-static": "1.x.x",
+    "styled-components": "2.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-react-tools": "1.x.x",
+    "serve": "^6.1.0"
+  }
+}
