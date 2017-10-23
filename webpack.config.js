@@ -7,7 +7,7 @@ module.exports = {
     './src/index.js',
   ],
   output: {
-    path: path.resolve(__dirname, 'www'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
   module: {
@@ -27,6 +27,6 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './www'
+    contentBase: './dist'
   }
 };
