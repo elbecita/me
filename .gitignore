@@ -29,9 +29,18 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+<<<<<<< HEAD
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+=======
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dist folder
+dist/
+
+>>>>>>> 580cad4589eb136291c643e975c41e18cd9038f8
 # Dependency directories
 node_modules/
 jspm_packages/
@@ -56,3 +65,7 @@ typings/
 
 # dotenv environment variables file
 .env
+<<<<<<< HEAD
+=======
+
+>>>>>>> 580cad4589eb136291c643e975c41e18cd9038f8
