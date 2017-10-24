@@ -32,6 +32,9 @@ bower_components
 # bundle.js
 dist/bundle.js
 
+# dev folder
+dev
+
 # Dependency directories
 node_modules/
 jspm_packages/

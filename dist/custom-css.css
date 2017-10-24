@@ -1,0 +1,14 @@
+/* Temp css - to move to sass */
+.intro-header {
+  background: no-repeat center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: pink;
+  margin-bottom: 50px;
+  background-image: url(public/img/atardecer_valencia.jpg);
+}
+
+.site-heading {
+  padding: 200px 0;
+  color: white;
+}
