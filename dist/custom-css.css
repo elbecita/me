@@ -1,14 +1,54 @@
+
 /* Temp css - to move to sass */
-.intro-header {
+
+/* colors */
+/*
+$color1: rgba(0, 0, 0, 1); black (#000001)
+$color2: rgba(255, 255, 255, 1); white (#ffffff)
+$color3: rgba(73, 73, 73, 1); // gray darker (#494949)
+$color4: rgba(124, 122, 122, 1); // gray (#7c7a7a)
+$color5: rgba(255, 93, 115, 1); // pink (#ff5d73)
+
+pink - blue
+$color1: rgba(8, 126, 139, 1); blue turkesa (#087e8b)
+$color2: rgba(255, 90, 95, 1); pink chicle (#ff5a5f)
+$color3: rgba(60, 60, 60, 1); // gray (#3c3c3c)
+$color4: rgba(245, 245, 245, 1); white-ish (#f5f5f5)
+$color5: rgba(193, 131, 159, 1); // light purple (#c1839f)
+*/
+
+.intro {
   background: no-repeat center center;
-  background-attachment: scroll;
-  background-size: cover;
-  background-color: pink;
+  background-color: #ff5a5f;
   margin-bottom: 50px;
-  background-image: url(public/img/atardecer_valencia.jpg);
+  /*background-image: url(public/img/atardecer_valencia.jpg);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .site-heading {
-  padding: 200px 0;
-  color: white;
+  padding: 100px 0;
+  color: #f5f5f5;
+}
+
+/* Fonts */
+.font-bold {
+  font-weight: 500;
+}
+
+/* hr */
+.hr-light {
+  border-top: 1px solid #f5f5f5;
+}
+
+/* navbar */
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #f5f5f5;
+}
+.navbar-scrolled {
+  background-color: #087e8b;
 }

@@ -4,18 +4,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import NavBar from './components/nav-bar';
-import Header from './components/header';
+import Mask from './components/mask';
+import About from './components/about';
 
 const App = () => {
   return (
     <div>
-      <NavBar />
-      <Header />
-      <div className="container">
-        Hello world! In progress... {'<3'}
-      </div>
+      <header>
+        <NavBar />
+        <Mask />
+      </header>
+      <main>
+        <About />
+      </main>
     </div>
   );
 }
 
-ReactDOM.render(<App />, document.querySelector('body'));
+ReactDOM.render(<App />, document.getElementById('site'));
