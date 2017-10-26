@@ -31,7 +31,7 @@ class NavBar extends Component {
   onScroll(event) {
      const scrolled = window.scrollY;
      const navBarHeight = document.querySelector('nav').offsetHeight;
-     if (scrolled >= navBarHeight) {
+     if (scrolled >= navBarHeight + 20) {
       this.setState({ navClass: `${navClass.init} ${navClass.scrolled}` });
      } else {
       this.setState({ navClass: navClass.init });
