@@ -29,8 +29,9 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# bundle.js
+# generated files in dist
 dist/bundle.js
+dist/styles.css
 
 # dev folder
 dev
