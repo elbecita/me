@@ -17,6 +17,8 @@ $color4: rgba(245, 245, 245, 1); white-ish (#f5f5f5)
 $color5: rgba(193, 131, 159, 1); // light purple (#c1839f)
 */
 
+@import 'navbar';
+
 .intro {
   background: no-repeat center center;
   background-color: #ff5a5f;
@@ -43,12 +45,3 @@ $color5: rgba(193, 131, 159, 1); // light purple (#c1839f)
   border-top: 1px solid #f5f5f5;
 }
 
-/* navbar */
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus {
-  color: #f5f5f5;
-}
-.navbar-scrolled {
-  background-color: #087e8b;
-}
