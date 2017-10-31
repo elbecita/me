@@ -1,6 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
+import ScrollSpy from './scroll-spy';
 
 const navClass = {
   init: 'navbar navbar-expand-lg navbar-light ' +
@@ -15,6 +16,8 @@ class NavBar extends Component {
     this.state = {
       navClass: navClass.init
     };
+
+    this.items = ['Home', 'About', 'Blog'];
 
     // Binding
     this.onScroll = this.onScroll.bind(this);
@@ -48,11 +51,7 @@ class NavBar extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbar-content">
-              <div className="navbar-nav">
-                <a className="nav-item nav-link" href="#">Home</a>
-                <a className="nav-item nav-link" href="#">About</a>
-                <a className="nav-item nav-link" href="#">Blog</a>
-              </div>
+              <ScrollSpy items={this.items} />
             </div>
           </div>
         </nav>

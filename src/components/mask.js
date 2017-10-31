@@ -4,7 +4,7 @@ import React from 'react';
 
 const Mask = () => {
   return (
-    <div className="intro view">
+    <div id="home" className="intro view">
       <div className="container-fluid d-flex align-items-center justify-content-center">
         <div className="row d-flex justify-content-center">
           <div className="col-md-12 text-center">
