@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom';
 import NavBar from './components/nav-bar';
 import Mask from './components/mask';
 import About from './components/about';
+import Blog from './components/blog';
 import './styles/styles.scss';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       </header>
       <main>
         <About />
+        <Blog />
       </main>
     </div>
   );

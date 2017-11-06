@@ -42,6 +42,21 @@ class NavBar extends Component {
   }
 
   render() {
+    const socialLinks = [
+      {
+        id: 'github',
+        link: 'https://github.com/elbecita'
+      },
+      {
+        id: 'stack-overflow',
+        link: 'https://stackoverflow.com/users/4067893/elbecita'
+      },
+      {
+        id: 'linkedin',
+        link: 'https://www.linkedin.com/in/elbecita/'
+      }
+    ];
+
     return (
         <nav className={this.state.navClass}>
           <div className="container">
@@ -52,6 +67,17 @@ class NavBar extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbar-content">
               <ScrollSpy items={this.items} />
+              <ul className="navbar-nav">
+                {
+                  socialLinks.map((sl) => {
+                    return (
+                      <li className="nav-item" key={sl.id}>
+                        <a className="nav-link" href={sl.link} target="_blank"><i className={`fa fa-${sl.id}`}></i></a>
+                      </li>
+                    );
+                  })
+                }
+              </ul>
             </div>
           </div>
         </nav>

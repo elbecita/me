@@ -20,7 +20,7 @@ class ScrollSpy extends Component {
 
   render() {
     return(
-      <ul className="navbar-nav">
+      <ul className="navbar-nav mr-auto">
         {this.items.map((item) => {
           const key = item.toLowerCase();
           return (
