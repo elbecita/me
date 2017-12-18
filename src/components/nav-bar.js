@@ -60,7 +60,7 @@ class NavBar extends Component {
     return (
         <nav className={this.state.navClass}>
           <div className="container">
-            <div className="collapse navbar-collapse" id="navbar-content">
+            <div className="navbar-collapse" id="navbar-content">
               <ScrollSpy items={this.items} className="hidden-sm-down" />
               <ul className="navbar-nav">
                 {
