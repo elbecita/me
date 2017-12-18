@@ -8,7 +8,7 @@ const About = () => {
       <section id="about">
         <div className="row justify-content-center">
           <div className="col-md-3">
-            <img className="img-fluid" src="public/img/maria_grand_canyon.png"/>
+            <img className="img-fluid shadow" src="public/img/maria_grand_canyon.png"/>
           </div>
           <div className="col-md-7">
             <h3 className="font-bold">About</h3>
