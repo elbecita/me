@@ -8,10 +8,21 @@
 }
 
 .navbar {
-  transition: background-color .5s ease-in-out, padding .5s ease-in-out;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  box-shadow: 0 2px 10px 0 rgba(0,0,0,.12);
+  min-height: 50px;
+  @media (max-width: 767px) {
+    background-color: $secondary;
+
+    .container {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    transition: background-color .5s ease-in-out, padding .5s ease-in-out;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.12);
+  }
 
   .nav-item .nav-link .fa {
     padding-left: 3px;

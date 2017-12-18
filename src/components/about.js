@@ -29,7 +29,7 @@ const About = () => {
             <p align="justify">Speaking about personal projects, the whole idea about this website was to start sharing with the world the
               things I work on during my free time, so don't be shy, scroll down a bit and you will find my projects there. The section
               will grow over time, I hope!</p>
-            <p align="justify">Also, if you want to find me, just jump into any of my social profiles and send me a message. ^^</p>
+            <p align="justify">Also, if you want to contact me, just jump into any of my social profiles and send me a message. ^^</p>
           </div>
         </div>
       </section>

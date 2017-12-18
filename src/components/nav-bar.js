@@ -5,7 +5,7 @@ import ScrollSpy from './scroll-spy';
 
 const navClass = {
   init: 'navbar navbar-expand-lg navbar-light ' +
-  'fixed-top navbar-toggleable-md',
+  'fixed-top navbar-toggleable-sm',
   scrolled: 'navbar-scrolled'
 }
 
@@ -60,13 +60,8 @@ class NavBar extends Component {
     return (
         <nav className={this.state.navClass}>
           <div className="container">
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
             <div className="collapse navbar-collapse" id="navbar-content">
-              <ScrollSpy items={this.items} />
+              <ScrollSpy items={this.items} className="hidden-sm-down" />
               <ul className="navbar-nav">
                 {
                   socialLinks.map((sl) => {
