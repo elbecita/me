@@ -4,8 +4,8 @@
   "description": "Maria Fernandez personal site",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack & node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "./node_modules/webpack/bin/webpack.js",
+    "dev": "./node_modules/webpack/bin/webpack.js && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "keywords": [],
   "author": "Maria Fernandez",

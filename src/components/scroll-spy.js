@@ -13,7 +13,8 @@ class ScrollSpy extends Component {
     const target = document.getElementById(event.target.getAttribute('data-scrollto'));
     if (target) {
       target.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',
+        block: 'start'
       });
     }
   }
@@ -22,7 +23,7 @@ class ScrollSpy extends Component {
     return(
       <ul className="navbar-nav mr-auto">
         {this.items.map((item) => {
-          const key = item.toLowerCase();
+          const key = item.toLowerCase().replace(/ /g,"-");
           return (
             <li className="nav-item" key={key}>
               <a className="nav-link" data-scrollto={key} onClick={this.onClick}>{item}</a>

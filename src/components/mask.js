@@ -4,6 +4,7 @@ import React from 'react';
 
 const Mask = () => {
   return (
+    //<figure className="tint">
     <div id="home" className="intro view">
       <div className="container-fluid d-flex align-items-center justify-content-center">
         <div className="row d-flex justify-content-center">
@@ -17,6 +18,7 @@ const Mask = () => {
         </div>
       </div>
     </div>
+    //</figure>
   );
 };
 

@@ -17,7 +17,7 @@ class NavBar extends Component {
       navClass: navClass.init
     };
 
-    this.items = ['Home', 'About', 'Blog'];
+    this.items = ['Home', 'About', 'My projects'];
 
     // Binding
     this.onScroll = this.onScroll.bind(this);
