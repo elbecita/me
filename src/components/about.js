@@ -5,15 +5,12 @@ import React from 'react';
 const About = () => {
   return (
     <div className="container">
-      <section id="about">
+      <section id="about" className="section">
         <div className="row justify-content-center">
-          <div className="col-md-3">
-            <img className="img-fluid shadow about-pic" src="public/img/maria_grand_canyon.png"/>
-          </div>
-          <div className="col-md-7">
+          <div className="col-md-10 align-content-center">
             <h3 className="font-bold">About</h3>
             <hr />
-            <p align="justify">Oh hey hello! My name is Maria Fernandez Hernandez (yes, funny surnames, uh?), and this is my personal website, welcome!</p>
+            <p align="justify">Oh hey hello! My name is Maria Fernandez Hernandez and this is my personal website, welcome!</p>
             <p align="justify">I guess you're here because you want to know a little bit more about me. Well, I'm a Software Engineer,
               born and raised in Spain, but with an adventurous soul that makes the idea of moving and discovering new cultures extremely attractive.</p>
             <p align="justify">{`I've been working in the Software industry since 2012, remarkable year when I finished my Computer Science
@@ -21,7 +18,7 @@ const About = () => {
               to Javascript, language that quickly got my <3. My main goal since I started using it for the first time has been to become an
               expert on it, and here we are! in the path towards that, always learning, always having fun. Of course, I've worked with many other
               technologies. If you're curious, you'll be able to see more details about my background in my `}
-              <a href="public/maria_fernandez_resume.pdf" target="_blank">resume</a></p>
+              <a href="public/maria_fernandez_resume.pdf" target="_blank">resume</a></p>.
             <p align="justify">On other aspects, I love reading (mostly fantasy and sci-fi) and travelling (ok, yes, typical), I used
               to play videogames a lot when I was younger, but sadly free time when you're an adult is very little. I've been on & off during
               my whole life trying to learn how to play guitar (and still there), and if I were rich I'd start a micro-brewery and study
