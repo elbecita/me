@@ -1,0 +1,39 @@
+@import 'colors';
+
+.project-card {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+
+  // This makes possible to have the whole card clickable
+  a {
+    span {
+      position:absolute; 
+      width:100%;
+      height:100%;
+      top:0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+
+  .project-title {
+    color: $secondary;
+    transition: all 0.3s ease-out;
+  }
+
+  &:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    //box-shadow: 0 24px 36px rgba(0,0,0,0.11), 0 24px 46px var(--box-shadow-color);
+  }
+}
+
