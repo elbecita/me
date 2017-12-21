@@ -18,7 +18,7 @@ const About = () => {
               to Javascript, language that quickly got my <3. My main goal since I started using it for the first time has been to become an
               expert on it, and here we are! in the path towards that, always learning, always having fun. Of course, I've worked with many other
               technologies. If you're curious, you'll be able to see more details about my background in my `}
-              <a href="public/maria_fernandez_resume.pdf" target="_blank">resume</a></p>.
+              <a href="public/maria_fernandez_resume.pdf" target="_blank">resume</a>.</p>
             <hr />
             <p align="justify">The whole idea about this website was to start sharing with the world the
               things I work on during my free time, so don't be shy, scroll down a bit and you'll find my projects there. The section
